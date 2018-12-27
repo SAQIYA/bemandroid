@@ -70,7 +70,7 @@ public class Info extends AppCompatActivity {
 
                 OkHttpClient client = new OkHttpClient();
                 Request request = new Request.Builder()
-                        .url("https://hmjsimobile.000webhostapp.com/tampil_data.php?id=" + id[0])
+                        .url("https://bemandroid.000webhostapp.com/tampil_data.php?id=" + id[0])
                         .build();
                 try {
                     Response response = client.newCall(request).execute();
